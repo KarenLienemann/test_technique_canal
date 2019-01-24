@@ -1,0 +1,26 @@
+@font-face
+{
+    font-family: 'Source-Sans-Pro';
+    src: url('../font/source-sans-pro/Source-Sans-Pro.svg') format('svg');
+    src: url('../font/source-sans-pro/Source-Sans-Pro.woff') format('woff');
+}
+
+.Head 
+{
+  font-weight: bold;
+  font-family: 'Source-Sans-Pro';
+  background-color: #FAEAE6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(20px + 2vmin);
+  color: black;
+}
+
+.Head-body 
+{
+  font-family: 'Source-Sans-Pro';
+  font-size: calc(8px + 2vmin);
+}
+
