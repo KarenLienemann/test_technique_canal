@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types'
-
 class FilmModel 
 { 
   constructor(name, popularity, origin_country, vote_count, first_air_date, backdrop_path, original_language, id, vote_average, overview, poster_path)
