@@ -1,3 +1,20 @@
+# ReadMe Karen LIENEMANN
+
+## Démarrage de l’application
+Ouvrir un terminal depuis la racine du projet puis entrer la commande `npm start`
+
+## Point d’entrée de mon code 
+`src/index.js`
+
+## Choix de développement
+La base de l’application a été générée grâce à Create-React-App.
+J’ai créé un fichier `ServiceDb.js` afin d’aller récupérer le résultat d’une requête vers l’API movie db. L’objectif était de récupérer le résultat de la requête dans un fichier JSON et de l’exploiter ensuite. Pour cela, j’avais besoin d’utiliser le module node « file-system ». Comme j’ai créé mon application grâce à Create-React-App, mon serveur n’est pas en node, je n’ai donc pas accès au module « file-system ». Je n’ai pas trouvé d’équivalent à « file–system » que je pourrais exploiter. 
+J’ai donc essayé de migrer mon application en créant un serveur node ; donc en construisant le projet sans utiliser Create-React-App. Je me suis heurté à un nouveau soucis : la syntaxe es6 n’est pas reconnue par mon projet. J’ai essayé d’utiliser des modules complémentaires comme Babel. Malgré plusieurs tentatives, je n’ai pas réussi à résoudre le problème. J’ai donc décidé de continuer avec mon application basée sur Create-React-App, en codant en dur les résultats bruts de requêtes tels qu’ils m’auraient été transmis par mon `ServiceDb.js`.
+
+-----
+
+# Copyright Create-React-App 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
