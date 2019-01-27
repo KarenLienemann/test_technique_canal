@@ -1,5 +1,9 @@
 # ReadMe Karen LIENEMANN
 
+## Installation de l'application
+Installer NodeJS (npm inclus) sur la machine cible
+Ouvrir un terminal depuis la racine du projet puis entrer la commande `npm install` pour installer les dépendances (`node_modules`)
+
 ## Démarrage de l’application
 Ouvrir un terminal depuis la racine du projet puis entrer la commande `npm start`
 
